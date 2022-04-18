@@ -35,6 +35,7 @@ const today = new Date();
 <style>
 body {
   margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 #app {
