@@ -69,6 +69,7 @@ const getWeek = (weekPos: number) =>
               'saturday'
             ][date.getDay()]
           ]">
+            <span class="before"></span>
             <span> {{ date.getDate() }} </span>
           </td>
         </tr>
@@ -145,14 +146,18 @@ const getWeek = (weekPos: number) =>
       vertical-align: top;
       padding-left: 5px;
       box-sizing: border-box;
+
+      span {
+        display: inline-block;
+      }
     }
 
     td {
       border: 0.5px solid #223E53;
     }
 
-    :is(th, td):first-child { border-left: none }
-    :is(th, td):last-child { border-right: none }
+    th:first-child, td:first-child { border-left: none }
+    th:last-child, td:last-child { border-right: none }
     tr:last-child > td { border-bottom: none }
   }
 
@@ -164,7 +169,7 @@ const getWeek = (weekPos: number) =>
       text-align: center;
 
       td.date {
-        padding: 0 2px;
+
       }
 
       td, th {
