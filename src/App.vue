@@ -14,6 +14,7 @@ const today = new Date();
   height: 50px;
   border-bottom: 2px solid #969fa6;
   position: relative;
+  background-color: #eeeeee;
 
   &::after {
     content: '';
@@ -35,4 +36,9 @@ const today = new Date();
 body {
   margin: 0;
 }
+
+#app {
+  background-color: #fcfcfc;
+}
+
 </style>
