@@ -4,7 +4,8 @@ OBSのブラウザソースを介してカレンダーを表示するwidgetで�
 CustomCSS用にたくさん必要そうなクラス振ってるので自由に使ってください
 
 ## Recommended Setting
-幅: 600
+URL: https://calender.tsutoringo.ink/  
+幅: 600  
 高さ: 800
 
 カスタムCSS
