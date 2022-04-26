@@ -28,6 +28,12 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 }
 
 ```
+
+## クレジット表記について
+
+クレジット表記については載せても載せなくてもかまいません！
+おまかせします！
+
 ## Recommended IDE Setup
 
 - [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
